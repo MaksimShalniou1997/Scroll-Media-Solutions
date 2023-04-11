@@ -10,10 +10,12 @@ export const useStyles = makeStyles((theme) => ({
     height: 80,
     top: 0,
     background: "rgba(255, 255, 255, 0.7)",
+    width: "100%",
     backdropFilter: "blur(10px)",
     [theme.breakpoints.down("md")]: {
       height: "auto",
       padding: 10,
+      width: "calc(100% - 20px)",
     },
   },
   text: {
